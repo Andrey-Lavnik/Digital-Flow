@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1214px;
+    margin: auto;
+}
+.none{
+    display: none;
+}
+body {
+    background-image: url(images/mainpage-image.png);
+    font-family: 'Montserrat', sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+}
+
+.side1 {
+    display: flex;
+    max-width: 216px;
+    max-height: 49px;
+}
+
+main {
+    margin-top: 175px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 74px;
+    line-height: 90px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 50px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+}
+
+.a {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.window{
+    position: absolute;
+    top:0;
+   right:0;
+    background-color: #191A1E;
+    width: 751px;
+    height: 1030px;
+}
+
+.window a{
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+}
+
+.cross{
+    width:50px;
+    height: 50px;
+    padding-top: 42px;
+}
+
+.all-in-window{
+    max-width: 376px;
+    margin: auto;
+}
+
+.a{
+    margin-top: 89px;
+}
+
+.a div{
+    margin-top: 40px;
+}
+
+.for-application{
+    margin-top: 210px;
+}
+
+.socnet{
+    margin-top: 130px;
+}
+
+.window a:hover{
+    color: #fff;
+}
+
+@media(max-width: 1024px) {
+     .container{
+        max-width: 798px;
+        margin: auto;
+    }
+     main h1{
+        font-size: 60px;
+    }
+    .a{
+        padding-bottom: 60px;
+    }
+    .window{
+        width: 541px;
+        height: 625px;
+    }
+    .socnet{
+        margin-top: 90px;
+    }
+    .for-application{
+        margin-top: 50px;
+    }
+    .all-in-window{
+        height: 625px;
+    }
+    .right-side h1{
+        font-size: 20px;
+    }
+    .left-side img{
+        width: 800px;
+        height: 800px;
+    }
+}
+
+@media(max-width: 768px){
+    .container{
+        max-width: 542px;
+        margin: auto;
+    }
+    main h1{
+        font-size: 50px;
+    }
+    .window{
+        max-width: 460px;
+    }
+    body{
+        background-size: cover;
+    }
+}
+
+@media(max-width: 426px){
+     main h1{
+        font-size: 40px;
+    }
+    .container{
+        max-width: 385px;
+        margin: auto;
+    }
+    .side1 img{
+        width: 85%;
+        height: 85%;
+    }
+        .all-in-window a{
+            font-size: 10px;
+        }
+
+        .all-in-window{
+            max-width: 150px;
+        }
+        .window{
+            max-width: 250px;
+
+        }
+        .a{
+            max-width: 140px;
+        }
+}
+
